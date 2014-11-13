@@ -13,7 +13,7 @@ Chain::Chain(std::string file_name){
 
 	while(std::getline(in_stream, line)){
 
-		std::cout << "Reading line " << line_idx << "\n";
+		//std::cout << "Reading line " << line_idx << "\n";
 		line_idx++;
 		std::string word;
 		std::istringstream iss(line);
